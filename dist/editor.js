@@ -97,7 +97,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_editor_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.editor.scss */ "./src/blocks/expand/styles.editor.scss");
 /* harmony import */ var _styles_editor_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_editor_scss__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/mac/LocalSites/gutenberg/app/public/wp-content/plugins/enspire-blocks/src/blocks/expand/index.js";
+var _jsxFileName = "/Users/mac/LocalSites/gutenberg/app/public/wp-content/plugins/ensp-blocks/src/blocks/expand/index.js";
 
 var registerBlockType = wp.blocks.registerBlockType;
 var __ = wp.i18n.__;

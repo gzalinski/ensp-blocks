@@ -34,6 +34,8 @@ function ensp_blocks_register_block_type($block, $options = array()){
 			array(
 				'editor_script' => 'ensp-blocks-editor-script',
 				'editor_style' => 'ensp-blocks-editor-style',
+				'script' => 'ensp-blocks-script',
+				'style' => 'ensp-blocks-style',
 			),
 			$options
 		)
@@ -52,6 +54,18 @@ function ensp_blocks_register(){
 		'ensp-blocks-editor-style',
 		ENSB_URL. '/dist/editor.css',
 		array('wp-edit-blocks')
+	);
+
+	wp_register_script(
+		'ensp-blocks-script',
+		ENSB_URL. '/dist/script.js',
+		array()
+	);
+
+	wp_register_style(
+		'ensp-blocks-style',
+		ENSB_URL. '/dist/style.css',
+		array()
 	);
 
 	ensp_blocks_register_block_type('expand');

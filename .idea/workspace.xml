@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca6d8571-0658-4246-a05b-c217bcc8b32f" name="Default Changelist" comment="" />
+    <list default="true" id="c2c8e2e9-203f-492a-aafb-a5fd02637679" name="Default Changelist" comment="Revert &quot;first commit&quot;&#10;&#10;This reverts commit 675422e3c52286aa9b0056651d190e1864c84ab8.">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/expand/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/expand/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/editor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/editor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ensp-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/ensp-blocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +95,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="930" y="284" key="CommitChangelistDialog2" timestamp="1584792562862">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="930" y="284" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1584792562862" />
     <state x="637" y="417" key="com.intellij.ide.util.TipDialog" timestamp="1584776538305">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
