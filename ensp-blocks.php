@@ -59,7 +59,7 @@ function ensp_blocks_register(){
 	wp_register_script(
 		'ensp-blocks-script',
 		ENSB_URL. '/dist/script.js',
-		array()
+		array('jquery')
 	);
 
 	wp_register_style(
