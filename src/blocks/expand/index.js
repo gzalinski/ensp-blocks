@@ -1,7 +1,9 @@
 import './styles.editor.scss';
+import { registerBlockType } from '@wordpress/blocks';
+import { __ } from '@wordpress/i18n';
 
-const { registerBlockType } = wp.blocks;
-const { __ } = wp.i18n;
+// const { registerBlockType } = wp.blocks;
+// const { __ } = wp.i18n;
 
 registerBlockType('ensp-blocks/expand', {
   title: __('Expand', 'ensp-blocks'),

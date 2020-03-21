@@ -1,45 +1,46 @@
-const autoprefixer = require('autoprefixer');
-const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
-const CleanPlugin = require('clean-webpack-plugin');
+const autoprefixer = require('autoprefixer')
+const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin')
+const CleanPlugin = require('clean-webpack-plugin')
 
-module.exports =  (env, argv) => {
-  function isDevelopment() {
-    return argv.mode === 'development';
+module.exports = (env, argv) => {
+  function isDevelopment () {
+    return argv.mode === 'development'
   }
+
   var config = {
     entry: {
       editor: './src/editor.js',
       script: './src/script.js',
     },
     output: {
-      filename: '[name].js'
+      filename: '[name].js',
     },
     optimization: {
       minimizer: [
         new TerserPlugin({
-          sourceMap: true
+          sourceMap: true,
         }),
         new OptimizeCSSAssetsPlugin(
           {
             cssProcessorOptions: {
               map: {
                 inline: false,
-                annotation: true
-              }
-            }
-          })
-      ]
+                annotation: true,
+              },
+            },
+          }),
+      ],
     },
     plugins: [
       new CleanPlugin(),
       new MiniCSSExtractPlugin({
         chunkFilename: '[id].css',
         filename: chunkData => {
-          return chunkData.chunk.name == 'script' ? 'style.css' : "[name].css"
-        }
-      })
+          return chunkData.chunk.name == 'script' ? 'style.css' : '[name].css'
+        },
+      }),
     ],
     devtool: isDevelopment() ? 'cheap-module-source-map' : 'source-map',
     module: {
@@ -55,14 +56,14 @@ module.exports =  (env, argv) => {
                 [
                   '@babel/preset-react',
                   {
-                    "pragma": "wp.element.createElement",
-                    "pragmaFrag": "wp.element.Fragment",
-                    "development": isDevelopment()
-                  }
-                ]
-              ]
-            }
-          }
+                    'pragma': 'wp.element.createElement',
+                    'pragmaFrag': 'wp.element.Fragment',
+                    'development': isDevelopment(),
+                  },
+                ],
+              ],
+            },
+          },
         },
         {
           test: /\.(sa|sc|c)ss$/,
@@ -73,15 +74,20 @@ module.exports =  (env, argv) => {
               loader: 'postcss-loader',
               options: {
                 plugins: [
-                  autoprefixer()
-                ]
-              }
+                  autoprefixer(),
+                ],
+              },
             },
-            'sass-loader'
-          ]
-        }
-      ]
-    }
-  };
-  return config;
+            'sass-loader',
+          ],
+        },
+      ],
+    },
+    externals: {
+      jquery: 'jQuery',
+      '@wordpress/blocks': ['wp','blocks'],
+      '@wordpress/i18n': ['wp','i18n'],
+    },
+  }
+  return config
 }
