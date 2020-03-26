@@ -1,9 +1,8 @@
 import './style.editor.scss'
 import { registerBlockType } from '@wordpress/blocks'
 import { __ } from '@wordpress/i18n'
-import { RichText, InnerBlocks } from '@wordpress/block-editor'
+import { InnerBlocks } from '@wordpress/block-editor'
 import Edit from './edit'
-import { Fragment } from '@wordpress/element'
 
 const attributes = {
   maxHeight: {
@@ -44,16 +43,3 @@ registerBlockType('ust/expand', {
     )
   },
 })
-
-//
-// <div className={className + ' seemore'}>
-//   <div className="max-height" style={{ maxHeight: maxHeight }}>
-// <div className="full-text">
-//   <InnerBlocks
-// onChange={this.onChangeInner()}
-// allowedBlocks={innerAllowed}
-// />
-// </div>
-// </div>
-// <div className="btn-more"></div>
-// </div>

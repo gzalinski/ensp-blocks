@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2c8e2e9-203f-492a-aafb-a5fd02637679" name="Default Changelist" comment="WebPack External Feature">
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex1-input/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex1-input/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex1-input/style.editor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex3-sep-edit-file/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex3-sep-edit-file/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex3-sep-edit-file/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex3-sep-edit-file/style.editor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex3-sep-edit-file/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/expand-member/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/expand-member/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/expand-member/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/expand-member/style.editor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/expand-member/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/expand/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/expand/style.editor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c2c8e2e9-203f-492a-aafb-a5fd02637679" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/style.editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/editor.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/editor.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ensp-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/ensp-blocks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/expand/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/expand/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/expand/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/expand/styles.editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-old/blocks/!!!examples/ex1-input/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +110,7 @@
       <workItem from="1584715655258" duration="5713000" />
       <workItem from="1584776537589" duration="1018000" />
       <workItem from="1584986904307" duration="18910000" />
-      <workItem from="1585115549009" duration="67205000" />
+      <workItem from="1585115549009" duration="67600000" />
     </task>
     <task id="LOCAL-00001" summary="New WebPack Bundle for Editor+Frontedn Styles &amp; Script">
       <created>1584792644405</created>
@@ -158,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584794499493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Expand Block&#10;Expand Member Block">
+      <created>1585226985938</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585226985939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +164,8 @@
     <MESSAGE value="New WebPack Bundle for Editor+Frontedn Styles &amp; Script" />
     <MESSAGE value="Add Jquery Dependency" />
     <MESSAGE value="WebPack External Feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="WebPack External Feature" />
+    <MESSAGE value="Expand Block&#10;Expand Member Block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expand Block&#10;Expand Member Block" />
   </component>
   <component name="WindowStateProjectService">
     <state x="849" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584794397214">
@@ -197,11 +180,11 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1172" y="312" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1584793377972" />
-    <state x="182" y="-845" key="CommitChangelistDialog2" timestamp="1585125076167">
-      <screen x="-259" y="-1080" width="1920" height="1080" />
+    <state x="441" y="261" key="CommitChangelistDialog2" timestamp="1585226985682">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="182" y="-845" key="CommitChangelistDialog2/0.0.1440.900/-259.-1080.1920.1080@-259.-1080.1920.1080" timestamp="1585125076167" />
-    <state x="441" y="261" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1584881058807" />
+    <state x="441" y="261" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1585226985682" />
     <state width="1878" height="154" key="GridCell.Tab.0.bottom" timestamp="1585226900670">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -278,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1920.1200@0.0.1920.1200" timestamp="1584819132802" />
-    <state x="1108" y="340" key="Vcs.Push.Dialog.v2" timestamp="1584794511541">
+    <state x="1108" y="340" key="Vcs.Push.Dialog.v2" timestamp="1585226990572">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1108" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1584794511541" />
+    <state x="1108" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1585226990572" />
     <state x="895" y="100" width="925" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585222496347">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
