@@ -1,23 +1,59 @@
-import './styles.editor.scss';
-import { registerBlockType } from '@wordpress/blocks';
-import { __ } from '@wordpress/i18n';
+import './style.editor.scss'
+import { registerBlockType } from '@wordpress/blocks'
+import { __ } from '@wordpress/i18n'
+import { RichText, InnerBlocks } from '@wordpress/block-editor'
+import Edit from './edit'
+import { Fragment } from '@wordpress/element'
 
-// const { registerBlockType } = wp.blocks;
-// const { __ } = wp.i18n;
+const attributes = {
+  maxHeight: {
+    type: 'number',
+    default: 215,
+  },
+}
 
-registerBlockType('ensp-blocks/expand', {
-  title: __('Expand', 'ensp-blocks'),
+registerBlockType('ust/expand', {
+  title: __('Expand', 'ust-blocks'),
   category: 'layout',
   icon: {
-    background: '#f03',
+    background: '#004696',
     foreground: '#fff',
-    src: 'admin-network'
+    src: 'arrow-down-alt2',
   },
-  keywords: [ __('Expand', 'ensp-blocks'), __('Spoiler', 'ensp-blocks')],
-  edit: ({className}) => {
-    return <p className={className}>Editor</p>;
+  keywords: [
+    __('expand', 'ust-blocks'),
+    __('seemore', 'ust-blocks'),
+    __('spoiler', 'ust-blocks'),
+  ],
+  attributes,
+  edit: Edit,
+  save: function ({ attributes }) {
+    const { maxHeight } = attributes
+
+    return (
+      <div>
+        <div className="seemore">
+          <div className="max-height" style={{ maxHeight: maxHeight }}>
+            <div className="full-text">
+              <InnerBlocks.Content/>
+            </div>
+          </div>
+          <div className="btn-more"></div>
+        </div>
+      </div>
+    )
   },
-  save: ({className}) => {
-    return <p className={className}>Editor</p>;
-  }
 })
+
+//
+// <div className={className + ' seemore'}>
+//   <div className="max-height" style={{ maxHeight: maxHeight }}>
+// <div className="full-text">
+//   <InnerBlocks
+// onChange={this.onChangeInner()}
+// allowedBlocks={innerAllowed}
+// />
+// </div>
+// </div>
+// <div className="btn-more"></div>
+// </div>

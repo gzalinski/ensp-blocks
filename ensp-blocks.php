@@ -47,13 +47,24 @@ function ensp_blocks_register(){
 	wp_register_script(
 		'ensp-blocks-editor-script',
 		ENSB_URL. '/dist/editor.js',
-		array('wp-blocks','wp-i18n')
+		array(
+			'wp-blocks',
+			'wp-i18n',
+			'wp-element',
+			'wp-editor',
+			'wp-block-editor',
+			'wp-components',
+			'lodash',
+			'wp-blob',
+		),
+		null
 	);
 
 	wp_register_style(
 		'ensp-blocks-editor-style',
 		ENSB_URL. '/dist/editor.css',
-		array('wp-edit-blocks')
+		array('wp-edit-blocks'),
+		null
 	);
 
 	wp_register_script(
@@ -65,10 +76,12 @@ function ensp_blocks_register(){
 	wp_register_style(
 		'ensp-blocks-style',
 		ENSB_URL. '/dist/style.css',
-		array()
+		array(),
+		null
 	);
 
 	ensp_blocks_register_block_type('expand');
+
 
 }
 

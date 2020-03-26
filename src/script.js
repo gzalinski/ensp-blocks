@@ -1,1 +1,1 @@
-import './blocks/expand/script.js';
+import './blocks/expand-member/script.js';

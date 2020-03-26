@@ -1,0 +1,18 @@
+.wp-block-ust-member {
+  .wp-block-ust-member__image {
+    margin-right: 0;
+  }
+  .wp-block-ust-member__title,
+  .wp-block-ust-member__email {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .wp-block-ust-member__email{
+    textarea{
+      background: transparent !important;
+      border: 0 !important;
+      box-shadow: none !important;
+    }
+  }
+}

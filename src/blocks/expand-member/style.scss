@@ -1,0 +1,32 @@
+$color_title:  #03244a;
+$btn_color: #004696;
+$btn_gradient: #fff; //#f5efe0;
+
+.wp-block-ust-member{
+  margin-top: 3em;
+  display: flex;
+
+  &__image{
+    flex: 0 0 150px;
+    margin-right: 15px;
+  }
+
+  &__content{
+    width: calc(100% - 165px);
+  }
+
+  &__text{
+    margin-top: 1.5em;
+  }
+
+  &__title{
+      margin-top: -0.22em !important;
+      margin-bottom: 0.22em !important;
+      font-size: 1.1em !important;
+      color: $color_title !important;
+  }
+
+  &__email{
+    margin: 0 !important;
+  }
+}
