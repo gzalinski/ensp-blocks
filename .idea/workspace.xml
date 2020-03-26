@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c8e2e9-203f-492a-aafb-a5fd02637679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/style.editor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/accordion/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/spoiler/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/spoiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/spoiler/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/spoiler/style.editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/spoiler/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/expand-member/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand-member/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/expand-member/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand-member/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/expand-member/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand-member/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/expand/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand/edit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/expand/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/expand/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/expand/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +117,7 @@
       <workItem from="1584715655258" duration="5713000" />
       <workItem from="1584776537589" duration="1018000" />
       <workItem from="1584986904307" duration="18910000" />
-      <workItem from="1585115549009" duration="67600000" />
+      <workItem from="1585115549009" duration="75206000" />
     </task>
     <task id="LOCAL-00001" summary="New WebPack Bundle for Editor+Frontedn Styles &amp; Script">
       <created>1584792644405</created>
@@ -140,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585226985939</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove unused">
+      <created>1585227250430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585227250430</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +179,8 @@
     <MESSAGE value="Add Jquery Dependency" />
     <MESSAGE value="WebPack External Feature" />
     <MESSAGE value="Expand Block&#10;Expand Member Block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expand Block&#10;Expand Member Block" />
+    <MESSAGE value="remove unused" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused" />
   </component>
   <component name="WindowStateProjectService">
     <state x="849" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584794397214">
@@ -180,35 +195,35 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1172" y="312" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1584793377972" />
-    <state x="441" y="261" key="CommitChangelistDialog2" timestamp="1585226985682">
+    <state x="441" y="261" key="CommitChangelistDialog2" timestamp="1585227250262">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="182" y="-845" key="CommitChangelistDialog2/0.0.1440.900/-259.-1080.1920.1080@-259.-1080.1920.1080" timestamp="1585125076167" />
-    <state x="441" y="261" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1585226985682" />
-    <state width="1878" height="154" key="GridCell.Tab.0.bottom" timestamp="1585226900670">
+    <state x="441" y="261" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1585227250262" />
+    <state width="1878" height="154" key="GridCell.Tab.0.bottom" timestamp="1585231115886">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1004" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-259.-1080.1920.1080@-259.-1080.1920.1080" timestamp="1585138819365" />
     <state width="1398" height="154" key="GridCell.Tab.0.bottom/0.0.1440.900/-259.-1080.1920.1080@0.0.1440.900" timestamp="1585162672015" />
-    <state width="1878" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1585226900670" />
-    <state width="1878" height="154" key="GridCell.Tab.0.center" timestamp="1585226900669">
+    <state width="1878" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1585231115886" />
+    <state width="1878" height="154" key="GridCell.Tab.0.center" timestamp="1585231115885">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1004" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-259.-1080.1920.1080@-259.-1080.1920.1080" timestamp="1585138819363" />
     <state width="1398" height="154" key="GridCell.Tab.0.center/0.0.1440.900/-259.-1080.1920.1080@0.0.1440.900" timestamp="1585162672013" />
-    <state width="1878" height="154" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1585226900669" />
-    <state width="1878" height="154" key="GridCell.Tab.0.left" timestamp="1585226900668">
+    <state width="1878" height="154" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1585231115885" />
+    <state width="1878" height="154" key="GridCell.Tab.0.left" timestamp="1585231115884">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1004" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-259.-1080.1920.1080@-259.-1080.1920.1080" timestamp="1585138819362" />
     <state width="1398" height="154" key="GridCell.Tab.0.left/0.0.1440.900/-259.-1080.1920.1080@0.0.1440.900" timestamp="1585162672012" />
-    <state width="1878" height="154" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1585226900668" />
-    <state width="1878" height="154" key="GridCell.Tab.0.right" timestamp="1585226900669">
+    <state width="1878" height="154" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1585231115884" />
+    <state width="1878" height="154" key="GridCell.Tab.0.right" timestamp="1585231115885">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1004" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-259.-1080.1920.1080@-259.-1080.1920.1080" timestamp="1585138819364" />
     <state width="1398" height="154" key="GridCell.Tab.0.right/0.0.1440.900/-259.-1080.1920.1080@0.0.1440.900" timestamp="1585162672014" />
-    <state width="1878" height="154" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1585226900669" />
+    <state width="1878" height="154" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1585231115885" />
     <state width="781" height="423" key="GridCell.Tab.1.bottom" timestamp="1584955643242">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -300,6 +315,11 @@
           <url>file://$PROJECT_DIR$/src-old/blocks/!!!examples/ex4-input-image-controls-edit/edit.js</url>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/blocks/spoiler/index.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

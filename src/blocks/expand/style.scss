@@ -1,11 +1,12 @@
 $color_title:  #03244a;
 $btn_color: #004696;
-$btn_gradient: #f5efe0; //#f5efe0;
+$btn_gradient: #fff; //#f5efe0;
 
 .seemore{
   position: relative;
   overflow-y: hidden;
   padding-bottom: 0;
+  margin-bottom: 1.25em;
 
 
   .btn-more {

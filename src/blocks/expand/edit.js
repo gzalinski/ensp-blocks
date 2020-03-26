@@ -1,10 +1,10 @@
 import { Component, Fragment } from '@wordpress/element'
 import { __ } from '@wordpress/i18n'
-import { InspectorControls } from '@wordpress/editor'
 import { seeMoreChekcHeight, buttonToggle } from './script'
 
 import {
   InnerBlocks,
+  InspectorControls
 } from '@wordpress/block-editor'
 
 import {

@@ -22,7 +22,6 @@ registerBlockType('ust/expand', {
   keywords: [
     __('expand', 'ust-blocks'),
     __('seemore', 'ust-blocks'),
-    __('spoiler', 'ust-blocks'),
   ],
   attributes,
   edit: Edit,

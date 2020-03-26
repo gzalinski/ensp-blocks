@@ -1,7 +1,6 @@
 import { Component, Fragment } from '@wordpress/element'
 import { __ } from '@wordpress/i18n'
 import { isBlobURL } from '@wordpress/blob'
-import { InspectorControls } from '@wordpress/editor'
 import { withSelect } from '@wordpress/data'
 import {seeMoreChekcHeight, buttonToggle} from '../expand/script'
 
@@ -12,6 +11,7 @@ import {
   MediaUpload,
   MediaUploadCheck,
   InnerBlocks,
+  InspectorControls
 } from '@wordpress/block-editor'
 
 import {
@@ -208,7 +208,7 @@ class Edit extends Component {
               onChange={this.onChangeTitle}
               value={title}
               placeholder={__('Titlu')}
-              formattingControls={['italic']}
+              allowedFormats={['italic']}
             />
             <p className="wp-block-ust-member__email">
               <PlainText

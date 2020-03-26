@@ -49,7 +49,6 @@ registerBlockType('ust/member', {
   keywords: [
     __('expand', 'ust-blocks'),
     __('seemore', 'ust-blocks'),
-    __('spoiler', 'ust-blocks'),
     __('team', 'ust-blocks'),
     __('member', 'ust-blocks'),
   ],
