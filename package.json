@@ -39,7 +39,7 @@
     "autoprefixer": "^9.5.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.5",
-    "browserslist": "^4.5.4",
+    "browserslist": "^4.16.5",
     "clean-webpack-plugin": "^2.0.1",
     "css-loader": "^2.1.1",
     "eslint": "^6.8.0",
